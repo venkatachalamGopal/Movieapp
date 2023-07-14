@@ -1,0 +1,26 @@
+.movie{
+    background-color: var(--main-color);
+    position: relative;
+}
+.btn{
+    color: white;
+    display: flex;
+    align-items: center ;
+    padding: 10px;
+    text-transform: uppercase;
+    z-index: 99;
+    position: absolute;
+    top: 70px;
+}
+.nav{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(110, 110, 216);
+    gap: 7px;
+    font-weight: bold;
+}
+iframe{
+    width: 100vw;
+    height: 100vh;
+}
